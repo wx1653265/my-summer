@@ -1,0 +1,8 @@
+print"the circumference=", 2*3.14*6378000
+
+import numpy as np
+np.pi
+print"the circumference",2*np.pi*637800
+print"7/4>7/4.0??",7/4>7/4.0
+print"7/4=",7/4
+print"7/4.0=",7/4.0

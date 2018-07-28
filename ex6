@@ -1,0 +1,5 @@
+r=raw_input("what is r")
+import numpy as np
+np.pi
+print"the circumference=\n\t\t",2*np.pi*float(r)
+print"the surface=\n\t",4*np.pi*float(r)*float(r)

@@ -1,0 +1,7 @@
+a={'a':1,2:'b',(1,2):'c'}
+print a['a'],a[2],a[(1,2)]
+#a.add('b')
+#a.remove(1)
+print a
+a['extra']=5
+print a
