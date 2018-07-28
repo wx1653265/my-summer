@@ -1,0 +1,12 @@
+def add(a):
+    if abs(a-10.0)<abs(a-20.0):
+        print"a near to earth"
+    elif abs(a-10.0)>abs(a-20.0):
+        print"a near to mars"
+    else:
+        print"same"
+from sys import argv
+script,first=argv
+print"the first variable is:",first
+first=float(first)
+print add(first)
