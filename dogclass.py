@@ -8,7 +8,7 @@ class animal(organism):
         self.moving=True
         self.nomouth=False
 class dog(animal):
-    #def __init__(self):
+    def __init__(self):
         super(dog,self).__init__()
         self.wangwang=True
         self.miaomiao=False
