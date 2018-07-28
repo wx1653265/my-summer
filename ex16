@@ -1,3 +1,8 @@
-for i in range(600):
-    while i<521:
-        print"I love you"
+import numpy as np
+a=5
+i=0
+while a>0.5:
+    a=np.random.randn(1)
+    print a
+    i=i+1
+print i
